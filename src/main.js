@@ -22,7 +22,6 @@ const app = require('electron').app;
 // Enable portable support
 const portable = bootstrap.configurePortable();
 
-// Enable ASAR support
 bootstrap.enableASARSupport();
 
 // Set userData path before app 'ready' event and call to process.chdir
